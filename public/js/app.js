@@ -6602,6 +6602,48 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -11048,7 +11090,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody {\n    color: #fff;\n    background-color: #171717;\n}\n.c-black {\n    background-color: black;\n    border-radius: 20px\n}\n.mh-400 {\n    min-height: 400px;\n}\n.ft-small{\n    font-size: 80%;\n}\n.color-fa-midia {\n    color: #4136F1\n}\n\n/**\n * Listar Arquivos\n *\n */\n.li-black {\n    background-color: black;\n}\n.icon-midia {\n    margin-right: 5px;\n    margin-left: -15px;\n    padding: 7px 10px;\n    border-radius: 10px;\n    border: 1px solid #6c757d\n}\n\n/**\n * Adicionar Mídia\n *\n */\n.label-extens {\n    color: rgba(243, 122, 89, 1);\n}\n.badge-extens {\n    border: 1.5px solid rgba(134, 67, 255, 1);\n    border-radius: 15px;\n    padding: 2px 11px;\n    margin: 3px;\n}\n.btn-upload-m {\n    background: linear-gradient(to left, #8643FF 0%, #4136F1 100%);\n    border: 1px solid #4136F1;\n}\n", ""]);
+exports.push([module.i, "\nbody {\n    color: #fff;\n    background-color: #171717;\n}\n.c-black {\n    background-color: black;\n    border-radius: 20px\n}\n.mh-400 {\n    min-height: 400px;\n}\n.ft-small{\n    font-size: 80%;\n}\n.color-fa-midia {\n    color: #4136F1\n}\n\n/**\n * Listar Arquivos\n *\n */\n.li-black {\n    background-color: black;\n}\n.icon-midia {\n    margin-right: 5px;\n    margin-left: -15px;\n    padding: 7px 10px;\n    border-radius: 10px;\n    border: 1px solid #6c757d\n}\n.icon-audio {\n    border-radius: 15px;\n    padding: 10px 0;\n    border: 1px dashed #6c757d;\n    margin: 0 -5px 0 -10px;\n}\n.icon-img {\n    border-radius: 15px;\n    padding: 85px 0;\n    border: 1px dashed #6c757d;\n    margin: 0;\n}\n.btn-circle.btn-xl {\n    width: 70px;\n    height: 70px;\n    padding: 14px 26px;\n    border-radius: 35px;\n    font-size: 24px;\n    line-height: 1.33;\n}\n.btn-circle {\n    width: 35px;\n    height: 35px;\n    padding: 6px 0px;\n    border-radius: 25px;\n    text-align: center;\n    font-size: 14px;\n    line-height: 1.42857;\n}\n\n\n/**\n * Adicionar Mídia\n *\n */\n.label-extens {\n    color: rgba(243, 122, 89, 1);\n}\n.badge-extens {\n    border: 1.5px solid rgba(134, 67, 255, 1);\n    border-radius: 15px;\n    padding: 2px 11px;\n    margin: 3px;\n}\n.btn-gdr-m {\n    background: linear-gradient(to left, #8643FF 0%, #4136F1 100%);\n    border: 1px solid #4136F1;\n}\n", ""]);
 
 // exports
 
@@ -42854,9 +42896,70 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-3 mt-5" }, [
           _c("div", { staticClass: "card text-white c-black mh-400" }, [
-            _c("div", { staticClass: "card-header text-center" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" })
+            _c("div", { staticClass: "card-body" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12" }, [
+                  _c("div", { staticClass: "icon-img text-center" }, [
+                    _c("i", {
+                      staticClass: "fa fa-video",
+                      staticStyle: { color: "#6c757d" }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col text-center mt-3" }, [
+                  _c(
+                    "label",
+                    { staticClass: "ft-small", attrs: { for: "customRange1" } },
+                    [_vm._v("Dapibus ac facilis")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control-range",
+                    staticStyle: { height: "4px" },
+                    attrs: {
+                      type: "range",
+                      id: "customRange1",
+                      min: "0",
+                      max: "100"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "mt-1" }, [
+                    _c(
+                      "div",
+                      { staticStyle: { float: "left", "font-size": "10px" } },
+                      [_vm._v("00:00")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticStyle: { float: "right", "font-size": "10px" } },
+                      [_vm._v("00:00")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-md-12 text-center mt-3",
+                    staticStyle: { "margin-top": "5px" }
+                  },
+                  [
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "btn btn-xl btn-circle btn-primary btn-gdr-m",
+                        attrs: { type: "button" }
+                      },
+                      [_c("i", { staticClass: "fa fa-play" })]
+                    )
+                  ]
+                )
+              ])
+            ])
           ])
         ]),
         _vm._v(" "),
@@ -42865,12 +42968,33 @@ var staticRenderFns = [
             "div",
             {
               staticClass: "card text-white c-black",
-              staticStyle: { "min-height": "270px" }
+              staticStyle: { "min-height": "280px" }
             },
             [
-              _c("div", { staticClass: "card-header text-center" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" })
+              _c("div", { staticClass: "card-body" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("div", { staticClass: "icon-img text-center" }, [
+                      _c("i", {
+                        staticClass: "fa fa-image",
+                        staticStyle: { color: "#6c757d" }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col text-center mt-3" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "btn btn-sm btn-primary btn-gdr-m ft-small",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Filtros")]
+                    )
+                  ])
+                ])
+              ])
             ]
           ),
           _vm._v(" "),
@@ -42878,12 +43002,86 @@ var staticRenderFns = [
             "div",
             {
               staticClass: "card text-white c-black",
-              staticStyle: { "min-height": "100px", "margin-top": "30px" }
+              staticStyle: { "min-height": "90px", "margin-top": "30px" }
             },
             [
-              _c("div", { staticClass: "card-header text-center" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" })
+              _c("div", { staticClass: "card-body" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-2 pr-0" }, [
+                    _c("div", { staticClass: "icon-audio text-center" }, [
+                      _c("i", {
+                        staticClass: "fa fa-microphone",
+                        staticStyle: { color: "#6c757d" }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-md-8 pr-3",
+                      staticStyle: { "margin-top": "-5px" }
+                    },
+                    [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "ft-small",
+                          attrs: { for: "customRange1" }
+                        },
+                        [_vm._v("Cras justo odio")]
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control-range",
+                        staticStyle: { height: "4px" },
+                        attrs: {
+                          type: "range",
+                          id: "customRange1",
+                          min: "0",
+                          max: "100"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "mt-1" }, [
+                        _c(
+                          "div",
+                          {
+                            staticStyle: { float: "left", "font-size": "10px" }
+                          },
+                          [_vm._v("00:00")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticStyle: { float: "right", "font-size": "10px" }
+                          },
+                          [_vm._v("00:00")]
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "col-md-2 pl-0",
+                      staticStyle: { "margin-top": "5px" }
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-circle btn-primary btn-gdr-m",
+                          attrs: { type: "button" }
+                        },
+                        [_c("i", { staticClass: "fa fa-play" })]
+                      )
+                    ]
+                  )
+                ])
+              ])
             ]
           )
         ]),
@@ -43106,7 +43304,7 @@ var staticRenderFns = [
                   _c(
                     "button",
                     {
-                      staticClass: "btn btn-primary btn-upload-m w-100",
+                      staticClass: "btn btn-primary btn-gdr-m w-100",
                       attrs: { type: "button" }
                     },
                     [_vm._v("Upload")]
